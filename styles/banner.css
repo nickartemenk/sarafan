@@ -6,21 +6,12 @@
   background-repeat: no-repeat;
   padding-top: 40px;
   color: var(--text-color);
-}
-.header{
-  max-width: 1175px;
-  width: 100%;
-  margin: 0 auto;
   display: flex;
-  align-items: center;
-  justify-content:space-between;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.burger{
-  display: none;
-}
-
-.logo-mobile{
+.burger, .logo-mobile{
   display: none;
 }
 
@@ -29,13 +20,11 @@
   justify-content: start;
   max-width: 385px;
   width: 100%;
-
 }
 
-.nav_items{
+.nav-items{
   gap: 44px;
   display: flex;
-
 }
 
 .icons{
@@ -45,6 +34,48 @@
   justify-content: end;
   align-items: center;
   gap: 19px;
+}
+
+
+.banner-slider{
+  display: flex;
+}
+
+.banner-slider-content{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  width: 100%;
+}
+
+.banner-slider-textblock{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.banner-slider-subtitle{
+  color: var(--color-white);
+  font-size: 25px;
+  line-height: 28.47px;
+}
+
+.banner-slider-title{
+  font-family: "Playfair Display", sans-serif;
+  font-size: 63px;
+  line-height: 71.76px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.banner-slider-link{
+  width: 300px;
+  height: 56px;
+  background-color: var(--color-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media  (max-width: 768px){
@@ -57,7 +88,6 @@
     background-color: white;
     justify-content: space-between;
     padding: 15px 30px;
-
   }
 
   .burger{
@@ -65,14 +95,10 @@
     justify-content: start;
     max-width: 330px;
     width: 100%;
-    
   }
 
-  .logo{
-    display: block;
-  }
 
-  .logo-pc{
+  .logo-pc, .nav, .nav_items {
     display: none;
   }
 
@@ -81,18 +107,12 @@
     display: block;
   }
 
- 
-  .nav{
-    display: none;
-  }
 
   .icons{
     gap: 9px;
     max-width: 330px;
   }
-  .nav_items{
-    display: none;
-  }
+ 
 }
 
 @media screen and (max-width: 460px){
@@ -105,7 +125,7 @@
 @media (max-width: 425px){
   .icons{
     gap: 7px;
-    color: #cecece;
+    color: var(--color-grey);
   }
 
   .icons svg{

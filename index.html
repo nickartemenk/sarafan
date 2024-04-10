@@ -5,13 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
       rel="stylesheet"
@@ -20,13 +18,13 @@
   </head>
   <body>
     <section class="banner">
-      <header class="header">
+      <header class="header container">
         <nav class="nav">
-          <ul class="nav_items">
-            <li class="nav_items_item">Новинки</li>
-            <li class="nav_items_item">Одежда</li>
-            <li class="nav_items_item">Аксессуары</li>
-            <li class="nav_items_item">SALE</li>
+          <ul class="nav-items">
+            <li class="nav-items-item">Новинки</li>
+            <li class="nav-items-item">Одежда</li>
+            <li class="nav-items-item">Аксессуары</li>
+            <li class="nav-items-item">SALE</li>
           </ul>
         </nav>
 
@@ -34,18 +32,12 @@
           <img src="./assets/images/banner/burger.svg" alt="menu" />
         </div>
 
-        <div class="logo">
-          <img
-            class="logo-pc"
-            src="./assets/images/banner/logo.svg"
-            alt="logo"
-          />
-          <img
-            class="logo-mobile"
-            src="./assets/images/banner/logo-mobile.png"
-            alt="logo-mobile"
-          />
-        </div>
+        <img class="logo-pc" src="./assets/images/banner/logo.svg" alt="logo" />
+        <img
+          class="logo-mobile"
+          src="./assets/images/banner/logo-mobile.png"
+          alt="logo-mobile"
+        />
 
         <div class="icons">
           <div class="icons-heart">
@@ -101,6 +93,19 @@
           </div>
         </div>
       </header>
+
+      <div class="banner-slider container">
+        <div class="banner-slider-content">
+          <div class="banner-slider-textblock">
+            <h3 class="banner-slider-subtitle">Весна — лето 2022</h3>
+            <h2 class="banner-slider-title">
+              with love,<br />
+              to you
+            </h2>
+            <a class="banner-slider-link" href="/">Перейти в каталог</a>
+          </div>
+        </div>
+      </div>
     </section>
   </body>
 </html>
