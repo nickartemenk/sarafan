@@ -1,11 +1,9 @@
-
-
+/* global */
 @import url(./reset.css);
-
 @import url(./global.css);
-
 @import url(./variables.css);
 
+/* sections */
 @import url(./banner.css);
 
 

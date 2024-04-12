@@ -97,10 +97,8 @@
   width: 13px;
   height:13px;
   border-radius: 50%;
-  background-color: #E5E5E5;
+  background-color: var(--bullet-bg);
   display: flex;
-  
-  
 }
 
 @media  (max-width: 768px){
