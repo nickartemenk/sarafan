@@ -63,7 +63,7 @@
 }
 
 .banner-slider-subtitle{
-  color: var(--color-white);
+  color: var(--white);
   font-size: 25px;
   line-height: 28.47px;
 }
@@ -74,13 +74,14 @@
   line-height: 71.76px;
   text-transform: uppercase;
   text-align: center;
-  color: var(--color-white);
+  color: var(--white);
 }
 
 .banner-slider-link{
-  width: 300px;
+  max-width: 300px;
+  width: 100%;
   height: 56px;
-  background-color: var(--color-white);
+  background-color: var(--white);
   display: flex;
   justify-content: center;
   align-items: center;
