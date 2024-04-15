@@ -1,0 +1,39 @@
+.inspired{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.inspired-textblock{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.inspired-textblock__title{
+  font-weight: 400px;
+  font-size: 25px;
+  line-height: 28.47px;
+  color: var(--text-color);
+}
+
+.inspired-textblock__text {
+  margin: 6px 0px 20px 124px;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 22.4px;
+  color: var(--text-color);
+}
+
+.inspired-textblock__description{
+  margin-bottom: 20px;
+}
+
+.inspired-textblock__link{
+  color: var(--inspired-link);
+  text-decoration: underline;
+}
+
+.inspired-cardblock{
+  display: flex;
+  justify-content: space-between;
+}
+
