@@ -73,6 +73,7 @@
 .newcollection-bottomblock__card{
   position: relative;
   flex: 0 1 50%;
+  height: 100%;
 }
 
 .newcollection-bottomblock__card-image{

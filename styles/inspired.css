@@ -1,0 +1,51 @@
+.inspired{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.inspired-textblock{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.inspired-textblock__title{
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 28.47px;
+  color: var(--text-color);
+}
+
+.inspired-textblock__text {
+  margin: 6px 0px 20px 124px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22.4px;
+  color: var(--text-color);
+}
+
+.inspired-textblock__description{
+  margin-bottom: 20px;
+  max-width: 370px;
+}
+
+.inspired-textblock__link{
+  color: var(--inspired-link);
+  position: relative;
+  display: inline-block;
+}
+
+.inspired-textblock__link::before{
+  max-width: 100%;
+  content: " ";
+  background-color: var(--inspired-link);
+  width: 150px;
+  height: 0.5px;
+  top: 20px;
+  position: absolute;
+}
+
+.inspired-cardblock{
+  display: flex;
+  justify-content: space-between;
+}
+
