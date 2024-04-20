@@ -1,0 +1,136 @@
+.newcollection{
+  padding-top: 120px;
+  padding-bottom: 60px;
+}
+
+.newcollection-title{
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 28.47px;
+  margin-bottom: 30px;
+}
+
+.newcollection-items{
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.newcollection-items__card-text__name{
+  line-height: 18.22px;
+  margin-top: 20px;
+  color: var(--text-color);
+}
+
+.newcollection-items__card-text__price{
+  font-size: 15px;
+  margin-top: 8px;
+  color: var(--text-color);
+}
+
+.newcollection-items__card{
+  position: relative;
+}
+
+.newcollection-items__card-image img{
+  width: 100%;
+  height: 100%;
+}
+
+.newcollection-bottomblock__card-image{
+  width: 100%;
+  height: 100%;
+}
+
+.newcollection-items__card-image__heart{
+  position: absolute;
+  color: var(--white);
+  top: 12px;
+  right: 12px;
+}
+
+.newcollection-bottomblock{
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.newcollection-bottomblock__card-text__name{
+  line-height: 18.22px;
+  margin-top: 20px;
+  color: var(--text-color);
+}
+
+.newcollection-bottomblock__card-text__price{
+  font-size: 15px;
+  margin-top: 8px;
+  color: var(--text-color);
+}
+
+.newcollection-bottomblock__card{
+  position: relative;
+  flex: 0 1 50%;
+  height: 100%;
+}
+
+.newcollection-bottomblock__card-image{
+  width: 100%;
+  height: 100%;
+}
+
+.newcollection-bottomblock__card-image__heart{
+  position: absolute;
+  color: var(--white);
+  top: 12px;
+  right: 12px;
+}
+
+
+
+
+@media  (max-width: 1250px){
+  .newcollection{
+    padding-top: 80px;
+    padding-bottom: 40px;
+  }
+
+  .newcollection-items {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .newcollection-items__card{
+    flex: 0 1 calc(50% - 30px);
+  }
+}
+
+@media screen and (max-width: 460px){
+  .newcollection{
+    padding-top: 50px;
+    padding-bottom: 25px;
+  }
+
+  .newcollection-items{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .newcollection-items__card{
+    flex: 0 1 100%;
+  }
+
+  .newcollection-bottomblock{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .newcollection-bottomblock__card{
+    flex: 0 1 100%;
+  }
+
+  }
