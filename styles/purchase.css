@@ -21,13 +21,12 @@
 
 .purchase-items__card-text__name {
   line-height: 18px;
-  margin-top: 20px;
   color: var(--text-color);
+  margin-bottom: 8px;
 }
 
 .purchase-items__card-text__price {
   font-size: 15px;
-  margin-top: 8px;
   color: var(--text-color);
 }
 
@@ -38,6 +37,7 @@
 .purchase-items__card-image img {
   width: 100%;
   height: 100%;
+  margin-bottom: 20px;
 }
 
 .purchase-items__card-image__heart {
