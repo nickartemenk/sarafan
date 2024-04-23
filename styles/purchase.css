@@ -52,6 +52,7 @@
   top: 50%;
   left: -55px;
   color: var(--text-color);
+  transform: translate(-50%, -50%);
 }
 
 .purchase-arrow__right {
@@ -59,6 +60,7 @@
   top: 50%;
   right: -55px;
   color: var(--text-color);
+  transform: translate(-50%, -50%);
 }
 
 @media (max-width: 1300px) {
